@@ -1,5 +1,13 @@
+All expression images were generated using the website "http://www.codecogs.com/latex/eqneditor.php"
+
+eq1:
+
 \binom{n_t}{n_c} \cdot (2 \cdot 3)^{n_c} \cdot \binom{n_t-n_c}{(g_1-n_c)+(g_2-n_c)} \cdot \binom{(g_1-n_c)+(g_2-n_c)}{g_1-n_c} \cdot 3^{(g_1-n_c)+(g_2-n_c)}
 
+eq2:
+
 2^{n_c} \cdot 3^{g_1+g_2-n_c} \cdot \binom{n_t}{n_c} \cdot \binom{n_t-n_c}{g_1-n_c} \cdot \binom{n_e-g_1}{g_2-n_c}
+
+eq3:
 
 p(n_c\hspace{1.5} |\hspace{1.5} g_1,g_2,n_t) = \frac{2^{n_c} \cdot 3^{g_1+g_2-n_c} \cdot \binom{n_t}{n_c} \cdot \binom{n_t-n_c}{g_1-n_c} \cdot \binom{n_t-g_1}{g_2-n_c}}{\sum_{k=0}^{\min (g_1,g_2)} 2^{k} \cdot 3^{g_1+g_2-k} \cdot \binom{n_t}{k} \cdot \binom{n_t-k}{g_1-k} \cdot \binom{n_t-g_1}{g_2-k}}
