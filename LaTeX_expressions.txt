@@ -6,7 +6,7 @@ eq1:
 
 eq2:
 
-2^{n_c} \cdot 3^{g_1+g_2-n_c} \cdot \binom{n_t}{n_c} \cdot \binom{n_t-n_c}{g_1-n_c} \cdot \binom{n_e-g_1}{g_2-n_c}
+2^{n_c} \cdot 3^{g_1+g_2-n_c} \cdot \binom{n_t}{n_c} \cdot \binom{n_t-n_c}{g_1-n_c} \cdot \binom{n_t-g_1}{g_2-n_c}
 
 eq3:
 
